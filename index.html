@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="author" content="Parmesh Bhatt">
+     <link rel="stylesheet" href="./style.css">
+     <title>Advance Weather App</title>
+</head>
+<body>
+     <div>
+     <h1 style="color:aqua; background-color: black; display:inline;"><u>Know Weather In Your City</u></h1>
+     <br><br>
+     <h2 class="b"><u>City</u></h2><br><input type="text" name="City" id="City" placeholder="Enter city" required>
+     <br>
+     <br>
+     <input type="button" value="Search" class="b" id="button" onclick="get();">
+     </div>
+     <br>
+     <div id="all">
+     <p>Weather is: </p>
+     <div id="weather"></div>
+     <br>
+     <p>The Temperature is: </p>
+     <div id="response1"></div>
+     <br>
+     <p>Max-Temperature is: </p>
+     <div id="response2"></div>
+     <br>
+     <p>Min-Temperature is: </p>
+     <div id="response3"></div>
+     </div>
+     <script src="./demo.js"></script>
+</body>
+</html>

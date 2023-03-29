@@ -1,0 +1,35 @@
+h2{
+     margin-left: 600px;
+}
+
+h1{
+     margin-left: 450px;
+}
+#City{
+     margin-left: 550px;
+}
+
+/* body{
+     background-color: coral;
+     display: inline;
+} */
+
+#response1, 
+#response2, 
+#response3,
+#weather,
+p{
+     margin-left: 550px;
+}
+
+/* #all{
+     background-color: aqua;
+} */
+
+#button{
+     margin-left: 580px;
+     background-color:bisque;
+     border-radius: 5px;
+     width: 100px;
+     height: 30px;
+}
